@@ -13,7 +13,6 @@ class App {
     this.sever.use(express.json());
   }
 
-
   routes() {
     this.sever.use(routes);
   }
